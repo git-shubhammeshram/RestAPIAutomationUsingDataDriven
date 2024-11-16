@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>app.restapiautomation</groupId>
-  <artifactId>RestApiAutomation</artifactId>
+  <artifactId>RestAssuredAutomationTesting</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -38,6 +38,11 @@
       <version>1.1.1</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.15.2</version>
+    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
